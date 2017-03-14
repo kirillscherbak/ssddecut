@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #dmesg | tail -2 | grep sd | awk '{print(($4))}'
 
 while getopts d: option
